@@ -1,5 +1,3 @@
-import FriendList from '../FriendList/friendlist'
-
 export const FriendListItem = ({ avatar, name, isOnline, id }) => {
     return (
           <li class="item" key={id}>
