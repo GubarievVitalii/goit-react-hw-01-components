@@ -11,11 +11,20 @@
     box-shadow: 10px 10px 5px rgb(222, 227, 248);
 }
 
-.status {
+.statusOnline {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: green;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.statusOffline {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
     margin-left: 10px;
     margin-right: 10px;
 }

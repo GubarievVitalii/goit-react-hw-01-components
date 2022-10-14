@@ -1,5 +1,6 @@
-import s from './Friendlist.module.css'
-import { FriendListItem } from '../FriendListItem/FriendListItem'
+import s from './Friendlist.module.css';
+import PropTypes from 'prop-types';
+import { FriendListItem } from '../FriendListItem/FriendListItem';
 
 export const Friendlist = ({ friends }) => {
     return (
@@ -13,4 +14,8 @@ export const Friendlist = ({ friends }) => {
             ))}
         </ul>
     )
+}
+
+Friendlist.propTypes = {
+    friends: PropTypes.string.isRequired,
 }
